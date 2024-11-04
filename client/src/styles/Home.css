@@ -1,0 +1,74 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: #007bff;
+}
+
+.navbar-brand:hover {
+  color: #0056b3;
+}
+
+.home-container {
+  margin-top: 80px; /* Adjusted for the fixed navbar */
+}
+
+
+.card-link {
+  text-decoration: none;
+  color: inherit; /* Preserve text color within cards */
+}
+
+.custom-shadow {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+/* Custom styles for different service cards */
+.send-money-card {
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.tsa-dues-card {
+  background-color: #e3f2fd; /* Light blue background */
+  border: 2px solid #2196f3; /* Blue border */
+  box-shadow: 2px 2px 10px rgba(33, 150, 243, 0.3); /* Light blue shadow */
+}
+
+.standing-instruction-card {
+  background-color: #f1f8e9; /* Light green background */
+  border: 2px solid #8bc34a; /* Green border */
+  border-radius: 15px;
+}
+
+.sending-abroad-card {
+  background-color: #fff3e0; /* Light orange background */
+  box-shadow: 5px 5px 20px rgba(255, 152, 0, 0.2); /* Orange shadow */
+  border-radius: 20px;
+}
+
+.pay-bills-card {
+  background-color: #ffebee; /* Light red background */
+  border-left: 5px solid #e57373; /* Red left border */
+}
+
+.request-money-card {
+  background-color: #e1bee7; /* Light purple background */
+  border: 3px dotted #ba68c8; /* Dotted purple border */
+  border-radius: 10px;
+}
+
+.remittance-card {
+  background-color: #e0f2f1; /* Light teal background */
+  border: 2px dashed #009688; /* Dashed teal border */
+  box-shadow: 0 4px 8px rgba(0, 150, 136, 0.2); /* Teal shadow */
+}
+
+ 

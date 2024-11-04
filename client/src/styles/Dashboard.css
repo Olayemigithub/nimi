@@ -1,0 +1,30 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+}
+
+.card p, .card ul {
+  font-size: 1.2rem;
+}
+
+.card ul {
+  padding-left: 20px;
+}

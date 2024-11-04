@@ -1,0 +1,21 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.notification.success {
+    background-color: green;
+}
+
+.notification.error {
+    background-color: red;
+}
+
+.close-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}

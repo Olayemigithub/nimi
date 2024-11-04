@@ -1,0 +1,168 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Fixed Header */
+.fixed-header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.fixed-header .containerA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.right-nav a,
+.left-sidebar a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.right-nav a:hover,
+.left-sidebar a:hover {
+  background-color: #555;
+}
+
+.right-nav a {
+  margin-right: 10px;
+}
+
+.left-sidebar a {
+  margin-left: 10px;
+}
+
+/* CEO and COO Section */
+.gmd-space, .coo-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 15px;
+  margin-top: 80px; /* To offset fixed header */
+}
+
+.gmd-space img, .coo-space img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ceo, .coo {
+  max-width: 600px;
+}
+
+.ceo h3, .coo h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.ceo p, .coo p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ceo .gmd, .coo .coo {
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
+
+#ceo-txt {
+  color: #555;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#topFoo {
+  margin-bottom: 20px;
+}
+
+#foo-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#foo-icons li {
+  margin: 0 15px;
+}
+
+#foo-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+#foo-icons a:hover {
+  color: #ddd;
+}
+
+.fixed-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foo-container {
+  font-size: 14px;
+  color: #bbb;
+}
+/* General styles to create sticky footer */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+/* Footer styles */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.fixed-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

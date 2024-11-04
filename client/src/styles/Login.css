@@ -1,0 +1,37 @@
+/* src/components/LoginPage.css */
+
+/* Full-page background overlay */
+.login-overlay {
+    background: url('../assets/nimibg.jpeg') no-repeat center center/cover; /* Adjust path */
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(8px); /* Adds blurring effect */
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Transparent card for login */
+.login-card {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+}

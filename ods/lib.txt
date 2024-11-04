@@ -1,0 +1,17 @@
+<h1>About Us</h1>
+       <p>
+        Welcome to Nimi, your go-to platform for seamless and secure payment solutions. 
+       Our mission is to make financial transactions easy, efficient, and accessible for everyone.
+      </p>
+      <p>
+        With a focus on user experience and security, we strive to provide top-notch services 
+      including money transfers, bill payments, and much more. 
+        Join us in revolutionizing the way you manage your finances.
+      </p>
+       <Link to="/" className="btn btn-primary">Home</Link>
+       <footer className="footer">
+       <p>
+           Contact Us: <a href="mailto:info@example.com">info@ntl.com</a>
+       </p>
+        <p>&copy; {new Date().getFullYear()} NTL Ltd</p>
+       </footer>

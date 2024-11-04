@@ -1,0 +1,57 @@
+/* ContactUs.css */
+.contact-us-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.response-message {
+  margin-top: 20px;
+  color: green;
+}
+
+/* Sticky footer styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  background-color: #343a40; /* Dark background */
+  color: white; /* White text */
+  padding: 20px 0; /* Padding for footer */
+}

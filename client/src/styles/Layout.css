@@ -1,0 +1,25 @@
+html, body, .layout {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  main {
+    flex: 1; /* This makes the main content take up the remaining space */
+  }
+  .footer-margin-top {
+    margin-top: 2rem; /* Adjust the value as needed */
+}
+  footer {
+    position: relative; /* Keeps footer in flow of the document */
+    width: 100%; /* Ensures the footer takes the full width */
+    bottom: 0; /* Position at the bottom */
+  }
+  
